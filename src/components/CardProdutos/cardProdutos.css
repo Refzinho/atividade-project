@@ -1,0 +1,36 @@
+main {
+    background-color: rgb(248, 248, 239);
+    color: black;
+}
+
+.cleitin-produtos {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.caminho-cleitin a{
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+
+.cleitin-informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tamanho {
+    max-width: 300px;
+}
+
+.caminho-cleitin {
+    background-color: rgb(124, 189, 28);
+    width: fit-content;
+    padding: 6px;
+    border-radius: 5px;
+}
+.cleitin-imagem {
+    border: 1px solid rgb(0, 0, 0);
+}
